@@ -51,6 +51,14 @@ class _HomeState extends State<Home> {
 
       body: Stack(children: <Widget>[
         Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topRight,
+              end: Alignment.bottomLeft,
+              colors: [
+                Colors.amber,
+                Colors.white,
+          ])),
           child: Column(
             children: <Widget>[
               Container(
